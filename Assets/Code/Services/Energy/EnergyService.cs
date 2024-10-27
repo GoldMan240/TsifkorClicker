@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Zenject;
 
-namespace Code
+namespace Code.Services.Energy
 {
     public class EnergyService : IEnergyService, IInitializable
     {

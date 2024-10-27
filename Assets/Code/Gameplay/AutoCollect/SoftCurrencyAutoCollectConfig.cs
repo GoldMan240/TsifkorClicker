@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Code
+namespace Code.Gameplay.AutoCollect
 {
     [CreateAssetMenu(menuName = "Clicker/SoftCurrencyAutoCollectConfig", fileName = "SoftCurrencyAutoCollectConfig", order = 0)]
     public class SoftCurrencyAutoCollectConfig : ScriptableObject

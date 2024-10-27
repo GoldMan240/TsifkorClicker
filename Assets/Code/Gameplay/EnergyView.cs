@@ -1,8 +1,9 @@
+using Code.Services.Energy;
 using TMPro;
 using UnityEngine;
 using Zenject;
 
-namespace Code
+namespace Code.Gameplay
 {
     public class EnergyView : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Code
+namespace Code.Services.CurrencyPerTap
 {
     [CreateAssetMenu(menuName = "Clicker/CurrencyPerTapConfig", fileName = "CurrencyPerTapConfig", order = 0)]
     public class CurrencyPerTapConfig : ScriptableObject

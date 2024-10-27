@@ -1,8 +1,12 @@
 using System.Collections;
+using Code.Services.CoroutineRunner;
+using Code.Services.Currency;
+using Code.Services.CurrencyPerTap;
+using Code.Services.StaticDataService;
 using UnityEngine;
 using Zenject;
 
-namespace Code
+namespace Code.Gameplay.AutoCollect
 {
     public class SoftCurrencyAutoCollect : IInitializable
     {

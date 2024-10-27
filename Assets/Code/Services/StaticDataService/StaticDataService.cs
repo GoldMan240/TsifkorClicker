@@ -1,6 +1,8 @@
+using Code.Gameplay.AutoCollect;
+using Code.Services.CurrencyPerTap;
 using UnityEngine;
 
-namespace Code
+namespace Code.Services.StaticDataService
 {
     public class StaticDataService : IStaticDataService
     {

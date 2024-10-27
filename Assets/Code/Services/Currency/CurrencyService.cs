@@ -1,7 +1,7 @@
 using System;
 using Zenject;
 
-namespace Code
+namespace Code.Services.Currency
 {
     public class CurrencyService : ICurrencyService, IInitializable
     {

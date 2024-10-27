@@ -1,3 +1,6 @@
+using Code.Gameplay.AutoCollect;
+using Code.Services.FloatingText;
+using Code.Services.UI;
 using UnityEngine;
 using Zenject;
 

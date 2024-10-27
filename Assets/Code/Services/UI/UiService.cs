@@ -1,6 +1,7 @@
+using Code.Gameplay;
 using UnityEngine;
 
-namespace Code
+namespace Code.Services.UI
 {
     public class UiService : MonoBehaviour, IUiService
     {

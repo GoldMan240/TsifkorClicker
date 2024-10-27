@@ -1,9 +1,10 @@
 using System;
+using Code.Extensions;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Code
+namespace Code.Services.FloatingText
 {
     public class FloatingTextService : MonoBehaviour, IFloatingTextService
     {

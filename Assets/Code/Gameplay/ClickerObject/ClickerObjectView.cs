@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Code
+namespace Code.Gameplay.ClickerObject
 {
     public class ClickerObjectView : MonoBehaviour
     {

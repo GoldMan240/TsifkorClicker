@@ -1,6 +1,6 @@
 using UnityEngine.Pool;
 
-namespace Code
+namespace Code.Extensions
 {
     public static class ObjectPoolExtensions
     {
