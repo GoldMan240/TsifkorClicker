@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Code
+namespace Code.Services.FloatingText
 {
     public interface IFloatingTextService
     {

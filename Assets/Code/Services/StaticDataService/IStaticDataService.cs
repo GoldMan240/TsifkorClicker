@@ -1,4 +1,7 @@
-namespace Code
+using Code.Gameplay.AutoCollect;
+using Code.Services.CurrencyPerTap;
+
+namespace Code.Services.StaticDataService
 {
     public interface IStaticDataService
     {

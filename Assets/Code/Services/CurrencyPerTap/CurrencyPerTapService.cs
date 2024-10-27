@@ -1,7 +1,7 @@
-using UnityEngine;
+using Code.Services.StaticDataService;
 using Zenject;
 
-namespace Code
+namespace Code.Services.CurrencyPerTap
 {
     public class CurrencyPerTapService : ICurrencyPerTapService, IInitializable
     {

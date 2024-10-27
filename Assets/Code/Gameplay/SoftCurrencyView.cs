@@ -1,9 +1,9 @@
-using System;
+using Code.Services.Currency;
 using TMPro;
 using UnityEngine;
 using Zenject;
 
-namespace Code
+namespace Code.Gameplay
 {
     public class SoftCurrencyView : MonoBehaviour
     {

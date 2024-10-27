@@ -1,8 +1,12 @@
+using Code.Services.Currency;
+using Code.Services.CurrencyPerTap;
+using Code.Services.Energy;
+using Code.Services.FloatingText;
+using Code.Services.UI;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Zenject;
 
-namespace Code
+namespace Code.Gameplay.ClickerObject
 {
     public class ClickerObjectController : MonoBehaviour
     {

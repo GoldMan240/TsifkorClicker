@@ -1,9 +1,7 @@
-using System;
-using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
-namespace Code
+namespace Code.Services.FloatingText
 {
     public class FloatingTextView : MonoBehaviour
     {
