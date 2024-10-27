@@ -12,6 +12,8 @@ namespace Code
         {
             Container.Bind<IUiService>().FromInstance(_uiService).AsSingle();
             Container.Bind<IFloatingTextService>().FromInstance(_floatingTextService).AsSingle();
+            
+            Container.Bind<IInitializable>().To<SoftCurrencyAutoCollect>().AsSingle();
         }
     }
 }

@@ -4,5 +4,6 @@ namespace Code
     {
         void LoadAll();
         CurrencyPerTapConfig GetCurrencyPerTapConfig();
+        SoftCurrencyAutoCollectConfig GetSoftCurrencyAutoCollectConfig();
     }
 }

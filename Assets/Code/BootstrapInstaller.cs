@@ -1,9 +1,8 @@
-using UnityEngine;
 using Zenject;
 
 namespace Code
 {
-    public class BootstrapInstaller : MonoInstaller, IInitializable
+    public class BootstrapInstaller : MonoInstaller, IInitializable, ICoroutineRunner
     {
         public override void InstallBindings()
         {
